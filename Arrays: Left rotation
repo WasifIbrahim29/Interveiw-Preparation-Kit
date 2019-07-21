@@ -1,0 +1,13 @@
+function rotLeft(a, d) {
+
+  for(let i=0;i<d;i++){
+    var item=a.shift();
+    a.push(item);
+  }
+
+  console.log(a);
+
+
+}
+
+rotLeft([1,2,3,4,5],4);
